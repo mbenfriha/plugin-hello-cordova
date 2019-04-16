@@ -2,7 +2,7 @@
 
 @implementation HWPHello
 
-- (void)greet:(CDVInvokedUrlCommand*)command
+- (void)say:(CDVInvokedUrlCommand*)command
 {
 
     NSString* name = [[command arguments] objectAtIndex:0];
